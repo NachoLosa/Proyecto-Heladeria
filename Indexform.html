@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesform.css">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="./index.js"></script>
+    <script defer src="validar.js" ></script>
+    <script src="https://kit.fontawesome.com/af72541b0d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <img src="./Imagenes/Logo subrayado.png" alt="logo">
+            </a>
+            <buton class="menu-bar">
+                <i class="fas fa-bars"></i>
+            </buton>
+            <ul class="nav-menu">
+                <li class="menu-item"><a href="./Nosotros.html" class="menu-link">Nosotros</a></li>
+                <li class="menu-item"><a href="./Sucursales.html" class="menu-link">Sucursales</a></li>
+                <li class="menu-item"><a href="./Indexform.html" class="menu-link">Trabajá con nosotros</a></li>
+                <div class="redes">
+                    <li class="menu-item">
+                        <a href="https://www.facebook.com/famigliacasadehelados/" class="menu-link" target="_blank">
+                            <i class="fab fa-facebook"></i></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="https://www.twitter.com" class="menu-link" target="_blank">
+                            <i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="https://www.instagram.com/famigliacasadehelados/" class="menu-link" target="_blank">
+                            <i class="fab fa-instagram"></i></a>
+                    </li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+<body>
+    <main>
+        <section>
+            <form id="form" >
+                <h1>Trabaja con nosotros</h1>
+                <div class="field">
+                    <label>Nombre y apellido</label>
+                    <input type="text" placeholder="Ingrese Nombre y apellido " name="nombre"  id="nombre" autocomplete>
+                </div>
+                <div class="field">
+                    <label>Email</label>
+                    <input type="email" placeholder="Ingrese su correo" name="mail" id="mail" autocomplete>
+                </div>
+                <div class="field">
+                    <label>Telefono</label>
+                    <input type="text" placeholder="Ingrese su numero" name="telefono" id="telefono" autocomplete>
+                </div>
+                <div class="field">
+                    <label>Seleccionar sucursal</label>
+                    <select name="sucursal">
+                        <option value="">...</option>
+                        <option value="Urca">Urca</option>
+                        <option value="Villa Eucaristica">Villa Eucaristica</option>
+                        <option value="Nueva Córdoba">Nueva Córdoba</option>
+                        <option value="Villa Allende">Villa Allende</option>
+            
+                    </select>
+                </div>
+                <div class="field">
+                    <label>Adjunta tu CV</label>
+                    <input type="file" name="cv">
+                </div>
+                
+                <div class="textbox">
+                    <label>Mensaje</label>
+                    <textarea name="mensaje" placeholder=""></textarea>
+                </div>
+                <br>
+                <div>
+                    <button type="submit">Enviar</button>
+                </div>
+                <div></div>
+                    <p class= 'warnings' id='warnings'></p>
+                </div>
+                    <br>
+            </form>
+        </section>
+    </main>
+
+</body>
+<footer>
+    <div class="box_footer">
+        <div class="logo">
+            <img src="./Imagenes/Logo subrayado.png" alt="Logotipo Famiglia">
+        </div>
+        <div class="box_footer">
+            <h2 class="bottom-links"><a href="$">Atencion al Cliente</a></h2>
+        </div>
+        <div class="box_footer">
+            <h2 class="bottom-links"><a href="$">Trabaja con nosotros</a></h2>
+        </div>
+        <div class="box_footer">
+            <a href="https://www.facebook.com/famigliacasadehelados/" target="_blank">
+                <i class="fab fa-facebook"></i> </a>
+            <a href="https://www.twitter.com" target="_blank">
+                <i class="fab fa-twitter-square"></i></a>
+            <a href="https://www.instagram.com/famigliacasadehelados/" target="_blank">
+                <i class="fab fa-instagram-square"></i></a>
+        </div>
+    </div>
+</footer>
+
+</html>

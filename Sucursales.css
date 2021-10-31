@@ -1,0 +1,68 @@
+body{
+    background: url(./Imagenes/fondo_famiglia_blanco.png);
+}
+h1{
+    text-align: center;
+    color: black;
+}
+.sucursales{
+    width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: flex flex-start;
+}
+.sucursal-box{
+    margin: 20px;
+    padding-bottom: 10px;
+
+    box-sizing: border-box;
+    border-radius: 10px 10px 0 0;
+
+    background-color: gainsboro;
+    flex-wrap: wrap;
+}
+.sucursal-box a{
+    text-decoration: none;
+    color: black;
+}
+.sucursal-box:hover{
+    background: rgb(155, 215, 216);
+    cursor: pointer;
+    color: white;
+}
+.sucursal-box h3{
+    text-align: center;
+}
+.Barrio{
+    text-align: center;
+
+}
+.pie-foto-box{
+    text-align: center;
+}
+.wpp{
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.imagen-box{
+    width: 300px;
+    height: 300px;
+
+    border-radius: 10px 10px 0px 0px;
+
+    margin: 0 0 20 0px;
+}
+.mapa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.mapa iframe{
+    box-sizing: border-box;
+    border-radius: 10px;
+}

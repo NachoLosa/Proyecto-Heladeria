@@ -1,0 +1,91 @@
+.detallesSucursal .in .izq img {
+    width: 400px;
+    height: 400px;
+    vertical-align: middle;
+    border: 0;
+    border-radius: 10px;
+}
+.detallesSucursal {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: grid;
+    width: 80%;
+    max-width: 790px;
+    margin: auto;
+    height: auto;
+}
+.fondobody {
+    background-image: url(./Imagenes/fondo_famiglia_blanco.png);
+}
+.in {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(1,auto);
+}
+.izq {
+    width: 400px;
+    height: auto;
+}
+.der {
+    display: grid;
+    grid-column-start: 3;
+    grid-column-end: 3;
+    box-sizing: border-box;
+    background-color: rgb(155,215,216);
+    border-radius: 10px;
+    padding: 30px;
+    width: max-content;
+}
+.wap {
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 3px;  
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.wap a{
+    text-decoration: none;
+    color: black;
+}
+.wap a:hover{
+    color: white
+}
+.dir {
+font-weight: bold;
+}
+.hora {
+    font-weight: bold;
+}
+.tel {
+    font-weight: bold;
+}
+h6 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+.map {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    padding-top: 90px;
+    
+}
+.contenedor {
+    display: flex;
+    align-items: center;
+    display: grid;
+    grid-gap: 60px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,auto);
+    
+}
